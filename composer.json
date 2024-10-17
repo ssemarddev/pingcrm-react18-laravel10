@@ -49,6 +49,10 @@
         }
     },
     "scripts": {
+        "post-install-cmd": [
+            "npm install",
+            "npm run prod"
+        ],
         "compile": [
             "npm run prod",
             "@php artisan migrate:fresh --force",
