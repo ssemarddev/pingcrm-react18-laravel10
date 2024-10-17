@@ -7,7 +7,7 @@ const Dashboard = () => {
     <div>
       <h1 className="mb-8 text-3xl font-bold">Dashboard</h1>
       <p className="mb-12 leading-normal">
-        Hey there! Welcome to Ping CRM, a demo app designed to help illustrate
+        Hey there! Welcome to  CRM, a demo app designed to help illustrate
         how
         <a
           className="mx-1 text-indigo-600 underline hover:text-orange-500"
