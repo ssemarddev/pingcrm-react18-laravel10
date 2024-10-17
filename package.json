@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint ./resources/js/ --ext .js --ext .jsx"
+    "lint": "eslint ./resources/js/ --ext .js --ext .jsx",
+    "prod": "npm run dev"
   },
   "dependencies": {
     "@inertiajs/react": "^1.0.2",
